@@ -1,0 +1,12 @@
+[2026-01-16 14:51:11] Fail to Get MemoryOverwriteRequestControl Variable
+[2026-01-16 14:51:19] FwBlockService.c: LocateDevicePath failed, install new interface 0xFFD10000:
+[2026-01-16 14:51:19] FwBlockService.c: LocateDevicePath failed, install new interface 0xFFC40000:
+[2026-01-16 14:51:19] FwBlockService.c: LocateDevicePath failed, install new interface 0xFFF90000:
+[2026-01-16 14:51:31] SMM IPL failed to reset SMRAM window to EFI_MEMORY_UC
+[2026-01-16 14:51:40] Initialize variable error flag (FF)
+[2026-01-16 14:51:59] XhcControlTransfer: error - Time out, transfer - 40
+[2026-01-16 14:51:59] UsbGetOneConfig: failed to get descript length(30452) Time out
+[2026-01-16 14:51:59] UsbBuildDescTable: failed to get configure (index 0)
+[2026-01-16 14:51:59] UsbEnumerateNewDev: failed to build descriptor table - Device Error
+[2026-01-16 14:51:59] SdCardIdentification: Executing Cmd8 fails with Device Error
+[2026-01-16 14:51:59] SdCardIdentification: Executing Cmd8 fails with Device Error

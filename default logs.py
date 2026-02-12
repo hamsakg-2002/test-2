@@ -1,0 +1,9 @@
+(ERROR|FAIL|ASSERT|PANIC)
+(WARNING|WARN)
+\[\d{2}:\d{2}:\d{2}\]
+(SEC|PEI|DXE|BDS)
+(CPU|Memory|PCIe|USB)\s+.*(Init|Initialized|Done|Failed)
+(RESET|REBOOT|POWER\s*ON|POWER\s*OFF)
+(TEST\s+(START|END|PASS|FAIL))
+
+

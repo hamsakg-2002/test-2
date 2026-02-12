@@ -1,0 +1,226 @@
+[2026-01-16 14:51:11] Loading PEIM at 0x000FFFA56A0 EntryPoint=0x000FFFA5A35 CpuIoPei.efi
+[2026-01-16 14:51:11] Loading PEIM at 0x000FFFB2720 EntryPoint=0x000FFFB2A40 MemoryInit.efi
+[2026-01-16 14:51:11] Determine the memory size is [2GB]
+[2026-01-16 14:51:11] MRC getting memory size from SeC ...
+[2026-01-16 14:51:11] MRC SeCUmaSize memory size from SeC ... 10
+[2026-01-16 14:51:11] MRC getting fTPM memory size from SeC ...
+[2026-01-16 14:51:11] MRC SeCfTPMUmaSize memory size from SeC ... 0
+[2026-01-16 14:51:11] Configuring Memory...
+[2026-01-16 14:51:11] CheckMicrocodeRevision  = 00000909, CpuId = 00030679
+[2026-01-16 14:51:11] ####: ConfigureMemory() Entry
+[2026-01-16 14:51:11] Current function  is ProgMemoryMappingRegisters
+[2026-01-16 14:51:11] MRC allocating memory for SeC ...
+[2026-01-16 14:51:11] Install EFI Memory.
+[2026-01-16 14:51:11] Fail to Get MemoryOverwriteRequestControl Variable
+[2026-01-16 14:51:11] SmramHobDescriptorBlock->Descriptor[1].CpuStart = 7A000000
+[2026-01-16 14:51:11] PeiInstallPeiMemory MemoryBegin 0x70000000, MemoryLength 0xA000000
+[2026-01-16 14:51:11] MemoryInit Installed.
+[2026-01-16 14:51:11] >>>>MemoryInit Done
+[2026-01-16 14:51:11] Total temporary memory:    65536 bytes.
+[2026-01-16 14:51:11] temporary memory stack ever used: 15360 bytes.
+[2026-01-16 14:51:11] temporary memory heap used:       11512 bytes.
+[2026-01-16 14:51:13] Loading PEIM at 0x00079D75000 EntryPoint=0x00079D75395 CpuIoPei.efi
+[2026-01-16 14:51:13] CpuIO PPI has been loaded into memory.  Reinstalled PPI=0x79D76BD0
+[2026-01-16 14:51:16] PciExpressBase     : 0xE0000000
+[2026-01-16 14:51:16] PchUsbInit() - Start
+[2026-01-16 14:51:16] PchUsbInit() - End
+[2026-01-16 14:51:16] Cpu S3 dispatch
+[2026-01-16 14:51:16] Lab1Peim: Checking if Permanent Memory is installed.
+[2026-01-16 14:51:16] Customized Guided section Memory Size required is 0x7CE010 and address is 0x79565000
+[2026-01-16 14:51:17] Allocated Memory unaligned: Address = 0x78D97000, Pages = 0x7CE, Type = 4
+[2026-01-16 14:51:17] Updated aligned-mem HOB with BaseAddress = 78D97000, Length = 7CE000, MemoryType = 4
+[2026-01-16 14:51:17] Memory TOLM: A8000000
+[2026-01-16 14:51:17] PCIE OSBASE: E0000000
+[2026-01-16 14:51:17] PCIE   BASE: E0000000     Size : 4000000
+[2026-01-16 14:51:17] CoreInitializeMemoryServices:
+[2026-01-16 14:51:17] BaseAddress - 0x70024000 Length - 0x8CEC000 MinimalMemorySizeNeeded - 0x3950000
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x78D53000 - 0x78D72FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79FFF000 - 0x79FFFFFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79FFE000 - 0x79FFEFFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79FF7000 - 0x79FFDFFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x79D77000 - 0x79FF6FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D75000 - 0x79D76FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D73000 - 0x79D74FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D69000 - 0x79D72FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D67000 - 0x79D68FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D61000 - 0x79D66FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D5E000 - 0x79D60FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D5C000 - 0x79D5DFFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D5A000 - 0x79D5BFFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D56000 - 0x79D59FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D53000 - 0x79D55FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D51000 - 0x79D52FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D4F000 - 0x79D50FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D49000 - 0x79D4EFFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D47000 - 0x79D48FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x79D45000 - 0x79D46FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x79D35000 - 0x79D44FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x79565000 - 0x79D34FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x78D97000 - 0x79564FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x78D94000 - 0x78D96FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x78D73000 - 0x78D93FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000003 0x78D73000 - 0x78D93FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x78D53000 - 0x78D72FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x78D11000 - 0x78D52FFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x70000000 - 0x7001FFFF
+[2026-01-16 14:51:17] Memory Allocation 0x00000004 0x78D10000 - 0x78D10FFF
+[2026-01-16 14:51:17] !!!!!!!!  Image - c:\firmw\Build\Vlv2TbltDevicePkg\DEBUG_VS2015x86\X64\IntelFrameworkModulePkg\Universal\CpuIoDxe\CpuIoDxe\DEBUG\CpuIoDxe.pdb  !!!!!!!!
+[2026-01-16 14:51:17] Loading driver at 0x000785C5000 EntryPoint=0x000785C53DC CpuIoDxe.efi
+[2026-01-16 14:51:17] Loading driver at 0x000780C9000 EntryPoint=0x000780C9310 CpuIo2Dxe.efi
+[2026-01-16 14:51:18] Loading driver at 0x0007804C000 EntryPoint=0x0007804C320 NullMemoryTestDxe.efi
+[2026-01-16 14:51:20] SmmAddMemoryRegion
+[2026-01-16 14:51:20] SmmAddMemoryRegion
+[2026-01-16 14:51:20] SmmAddMemoryRegion
+[2026-01-16 14:51:22] Loading SMM driver at 0x0007A6B3000 EntryPoint=0x0007A6B34A0 CpuIo2Smm.efi
+[2026-01-16 14:51:25] Loading driver at 0x00077F11000 EntryPoint=0x00077F11338 PlatformCpuInfoDxe.efi
+[2026-01-16 14:51:25] Loading driver at 0x00077F0E000 EntryPoint=0x00077F0E2FC SaveMemoryConfig.efi
+[2026-01-16 14:51:26] Loading driver at 0x00077F05000 EntryPoint=0x00077F053F0 PlatformCpuPolicy.efi
+[2026-01-16 14:51:29] Loading driver at 0x00077E86000 EntryPoint=0x00077E8651C MpCpu.efi
+[2026-01-16 14:51:29] MemoryProtectionCpuArchProtocolNotify:
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x00000000785B5000 - 0x0000000000001000 (0x0000000000004000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x00000000785B6000 - 0x0000000000005000 (0x0000000000020000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x00000000785BB000 - 0x0000000000006000 (0x0000000000004000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x00000000785A8000 - 0x0000000000001000 (0x0000000000004000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x00000000785A9000 - 0x0000000000006000 (0x0000000000020000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x00000000785AF000 - 0x0000000000006000 (0x0000000000004000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x0000000078597000 - 0x0000000000001000 (0x0000000000004000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x0000000078598000 - 0x000000000000A000 (0x0000000000020000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x00000000785A2000 - 0x0000000000006000 (0x0000000000004000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x0000000078575000 - 0x0000000000001000 (0x0000000000004000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x0000000078576000 - 0x0000000000005000 (0x0000000000020000)
+[2026-01-16 14:51:29] SetUefiImageMemoryAttributes - 0x000000007857B000 - 0x0000000000005000 (0x0000000000004000)
+[2026-01-16 14:51:29] CheckMicrocodeUpdate Status > 0, msr(8B) = 00000909, CpuId = 00030679
+[2026-01-16 14:51:30] Loading driver at 0x00077E6A000 EntryPoint=0x00077E6A410 SmbiosMemory.efi
+[2026-01-16 14:51:30] SMBIOS,DimmMemorySize 80000000
+[2026-01-16 14:51:31] Loading SMM driver at 0x0007A633000 EntryPoint=0x0007A634054 PiSmmCpuDxeSmm.efi
+[2026-01-16 14:51:31] PcdCpuSmmCodeAccessCheckEnable = 1
+[2026-01-16 14:51:31] CPU[000]  APIC ID=0000  SMBASE=7A620000  SaveState=7A62FC00  Size=00000400
+[2026-01-16 14:51:31] CPU[001]  APIC ID=0004  SMBASE=7A622000  SaveState=7A631C00  Size=00000400
+[2026-01-16 14:51:31] PcdCpuSmmStaticPageTable - 0x1
+[2026-01-16 14:51:31] SMM CPU Module exit from SMRAM with EFI_SUCCESS
+[2026-01-16 14:51:31] SMM IPL failed to reset SMRAM window to EFI_MEMORY_UC
+[2026-01-16 14:51:34] CpuParticipantCriticalTemperature = 90
+[2026-01-16 14:51:34] CpuParticipantPassiveTemperature = 85
+[2026-01-16 14:51:34] Putting USB OTG into D3 Hot State.
+[2026-01-16 14:51:34] ConfigureUsb() Start
+[2026-01-16 14:51:34] CommonUsbInit() - Start
+[2026-01-16 14:51:34] USB2_PHY USB2_COMPBG:0x4700
+[2026-01-16 14:51:34] USB2PHY reg(0x4100): 0x49A09
+[2026-01-16 14:51:35] USB2PHY reg(0x4122): 0x300401D
+[2026-01-16 14:51:35] USB2PHY reg(0x4200): 0x49A09
+[2026-01-16 14:51:35] USB2PHY reg(0x4222): 0x300401D
+[2026-01-16 14:51:35] USB2PHY reg(0x4300): 0x49209
+[2026-01-16 14:51:35] USB2PHY reg(0x4322): 0x1004015
+[2026-01-16 14:51:35] USB2PHY reg(0x4400): 0x49A09
+[2026-01-16 14:51:35] USB2PHY reg(0x4422): 0x300401D
+[2026-01-16 14:51:35] USB2_PHY USB2_COMPBG:0x4700
+[2026-01-16 14:51:35] USB2PHY reg(0x4100): 0x49A09
+[2026-01-16 14:51:35] USB2PHY reg(0x4122): 0x300401D
+[2026-01-16 14:51:35] USB2PHY reg(0x4200): 0x49A09
+[2026-01-16 14:51:35] USB2PHY reg(0x4222): 0x300401D
+[2026-01-16 14:51:35] USB2PHY reg(0x4300): 0x49209
+[2026-01-16 14:51:35] USB2PHY reg(0x4322): 0x1004015
+[2026-01-16 14:51:35] USB2PHY reg(0x4400): 0x49A09
+[2026-01-16 14:51:35] USB2PHY reg(0x4422): 0x300401D
+[2026-01-16 14:51:35] UsbXhciLpmSupport enabled-->XhciM mioBase:0x-2147418112
+[2026-01-16 14:51:35] CommonUsbInit() - End
+[2026-01-16 14:51:35] ConfigureUsb() End
+[2026-01-16 14:51:35] LPE Allocate Audio Memory success at 0x20000000
+[2026-01-16 14:51:35] PciERWORegInit() Start
+[2026-01-16 14:51:35] PciERWORegInit() End
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE0000000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE0010000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE0088000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE0090000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE0098000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00A0000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00B8000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00C0000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00C6000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00D0000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00D8000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00E0000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00E1000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00E2000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00E3000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00F0000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00F1000
+[2026-01-16 14:51:35] LockPciDevCap() PciEAddressBase = 0xE00F2000
+[2026-01-16 14:51:36] LockPciDevCap() PciEAddressBase = 0xE00F3000
+[2026-01-16 14:51:36] LockPciDevCap() PciEAddressBase = 0xE00F4000
+[2026-01-16 14:51:36] LockPciDevCap() PciEAddressBase = 0xE00F5000
+[2026-01-16 14:51:37] Loading driver at 0x00077D47000 EntryPoint=0x00077D47384 UsbMassStorageDxe.efi
+[2026-01-16 14:51:37] Loading driver at 0x00077D3F000 EntryPoint=0x00077D3F3A4 UsbKbDxe.efi
+[2026-01-16 14:51:37] Loading driver at 0x00077D3A000 EntryPoint=0x00077D3A384 UsbMouseDxe.efi
+[2026-01-16 14:51:37] Loading driver at 0x00077D2F000 EntryPoint=0x00077D2F3A4 UsbBusDxe.efi
+[2026-01-16 14:51:39] Loading SMM driver at 0x0007A546000 EntryPoint=0x0007A547240 PchPcieSmm.efi
+[2026-01-16 14:51:39] InitializePchPcieSmm() Start
+[2026-01-16 14:51:39] InitializePchPcieSmm() End
+[2026-01-16 14:51:39] AcpiVariableThunkPlatform: AcpiMemoryBase is 0x78B97000
+[2026-01-16 14:51:39] AcpiVariableThunkPlatform: AcpiMemorySize is 0x   10000
+[2026-01-16 14:51:39] AcpiVariableThunkPlatform: SystemMemoryLength is 0x7A000000
+[2026-01-16 14:51:39] SmramCpuData.GdtrProfileSize            - A
+[2026-01-16 14:51:39] SmramCpuData.GdtSize                    - 48
+[2026-01-16 14:51:39] SmramCpuData.IdtrProfileSize            - A
+[2026-01-16 14:51:39] SmramCpuData.IdtSize                    - 48
+[2026-01-16 14:51:39] SmramCpuData.CpuPrivateDataSize         - C
+[2026-01-16 14:51:39] SmramCpuData.S3BootScriptTableSize      - 4000
+[2026-01-16 14:51:39] SmramCpuData.S3BspMtrrTableSize         - 200
+[2026-01-16 14:51:39] SmramCpuData.MicrocodePointerBufferSize - C
+[2026-01-16 14:51:39] SmramCpuData.MicrocodeDataBufferSize    - 32C00
+[2026-01-16 14:51:39] SmramCpuData.GdtrProfileOffset            - D8
+[2026-01-16 14:51:39] SmramCpuData.GdtOffset                    - E2
+[2026-01-16 14:51:39] SmramCpuData.IdtrProfileOffset            - 12A
+[2026-01-16 14:51:39] SmramCpuData.IdtOffset                    - 134
+[2026-01-16 14:51:39] SmramCpuData.CpuPrivateDataOffset         - 17C
+[2026-01-16 14:51:39] SmramCpuData.S3BootScriptTableOffset      - 188
+[2026-01-16 14:51:39] SmramCpuData.S3BspMtrrTableOffset         - 4188
+[2026-01-16 14:51:39] SmramCpuData.MicrocodePointerBufferOffset - 4388
+[2026-01-16 14:51:39] SmramCpuData.MicrocodeDataBufferOffset    - 4394
+[2026-01-16 14:51:39] CPU SMRAM NVS Data - 7A50F000
+[2026-01-16 14:51:40] SMM !!!!!!!!  Image - c:\firmw\Build\Vlv2TbltDevicePkg\DEBUG_VS2015x86\X64\UefiCpuPkg\CpuIo2Smm\CpuIo2Smm\DEBUG\CpuIo2Smm.pdb  !!!!!!!!
+[2026-01-16 14:51:40] SMM !!!!!!!!  Image - c:\firmw\Build\Vlv2TbltDevicePkg\DEBUG_VS2015x86\X64\UefiCpuPkg\PiSmmCpuDxeSmm\PiSmmCpuDxeSmm\DEBUG\PiSmmCpuDxeSmm.pdb  !!!!!!!!
+[2026-01-16 14:51:40] SMM !!!!!!!!  Image - c:\firmw\Build\Vlv2TbltDevicePkg\DEBUG_VS2015x86\X64\UefiCpuPkg\PiSmmCommunication\PiSmmCommunicationSmm\DEBUG\PiSmmCommunicationSmm.pdb  !!!!!!!!
+[2026-01-16 14:51:40] SMM MemoryProtectionAttribute - 0x0000000000000000
+[2026-01-16 14:51:40] GetUefiMemoryMap
+[2026-01-16 14:51:40] MemoryAttributesTable - NULL
+[2026-01-16 14:51:40] UefiMemory protection: 0x0 - 0x8F000
+[2026-01-16 14:51:40] UefiMemory protection: 0x90000 - 0x9E000
+[2026-01-16 14:51:40] UefiMemory protection: 0x100000 - 0x20000000
+[2026-01-16 14:51:40] UefiMemory protection: 0x20100000 - 0x783A1000
+[2026-01-16 14:51:40] UefiMemory protection: 0x78CCF000 - 0x7A000000
+[2026-01-16 14:51:42] [2J[01;01H[=3h[2J[01;01H[2J[01;01H[=3h[2J[01;01H[0m[35m[40mXhcCreateUsb3Hc: Capability length 0x80
+[2026-01-16 14:51:42] XhcCreateUsb3Hc: HcSParams1 0x7000820
+[2026-01-16 14:51:42] XhcCreateUsb3Hc: HcSParams2 0x84000054
+[2026-01-16 14:51:42] XhcCreateUsb3Hc: HcCParams 0x200077C1
+[2026-01-16 14:51:42] XhcCreateUsb3Hc: DBOff 0x3000
+[2026-01-16 14:51:42] XhcCreateUsb3Hc: RTSOff 0x2000
+[2026-01-16 14:51:42] XhcCreateUsb3Hc: UsbLegSupOffset 0x460
+[2026-01-16 14:51:42] XhcCreateUsb3Hc: DebugCapSupOffset 0x480
+[2026-01-16 14:51:42] UsbRootHubInit: root hub 76F4BD18 - max speed 3, 7 ports
+[2026-01-16 14:51:42] UsbBusStart: usb bus started on 76F97D98, root hub 76F4BD18
+[2026-01-16 14:51:42] UsbBusStop: usb bus stopped on 76F97D98
+[2026-01-16 14:51:42] UsbRootHubRelease: root hub released for hub 76F4BD18
+[2026-01-16 14:51:43] [2J[01;01H[=3h[2J[01;01H[2J[01;01H[=3h[2J[01;01H[0m[35m[40mXhcCreateUsb3Hc: Capability length 0x80
+[2026-01-16 14:51:43] XhcCreateUsb3Hc: HcSParams1 0x7000820
+[2026-01-16 14:51:43] XhcCreateUsb3Hc: HcSParams2 0x84000054
+[2026-01-16 14:51:43] XhcCreateUsb3Hc: HcCParams 0x200077C1
+[2026-01-16 14:51:43] XhcCreateUsb3Hc: DBOff 0x3000
+[2026-01-16 14:51:43] XhcCreateUsb3Hc: RTSOff 0x2000
+[2026-01-16 14:51:43] XhcCreateUsb3Hc: UsbLegSupOffset 0x460
+[2026-01-16 14:51:43] XhcCreateUsb3Hc: DebugCapSupOffset 0x480
+[2026-01-16 14:51:43] UsbRootHubInit: root hub 76F47D98 - max speed 3, 7 ports
+[2026-01-16 14:51:43] UsbBusStart: usb bus started on 76F8B798, root hub 76F47D98
+[2026-01-16 14:51:43] UsbEnumeratePort: port 6 state - 803, change - 10 on 76F47D98
+[2026-01-16 14:51:43] UsbEnumeratePort: new device connected at port 6
+[2026-01-16 14:51:43] UsbEnumerateNewDev: hub port 6 reset is skipped
+[2026-01-16 14:51:43] UsbEnumerateNewDev: device is of 3 speed
+[2026-01-16 14:51:43] UsbEnumerateNewDev: device uses translator (0, 0)
+[2026-01-16 14:51:43] UsbEnumerateNewDev: device is now ADDRESSED at 1
+[2026-01-16 14:51:43] UsbEnumerateNewDev: max packet size for EP 0 is 512
+[2026-01-16 14:51:43] UsbBuildDescTable: device has 1 configures
+[2026-01-16 14:51:59] UsbGetOneConfig: failed to get descript length(30452) Time out
+[2026-01-16 14:51:59] UsbBuildDescTable: failed to get configure (index 0)
+[2026-01-16 14:51:59] UsbEnumerateNewDev: failed to build descriptor table - Device Error
+[2026-01-16 14:52:17] PchInitAfterPciEnumeration - Callback.
+[2026-01-16 14:52:17] Memory  Previous  Current    Next
